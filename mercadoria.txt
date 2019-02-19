@@ -1,0 +1,9 @@
+create table mercadoria(
+idmercadoria bigint auto_increment,
+nome varchar (100) not null,
+fabricante varchar (100) not null,
+origem varchar (100) not null,
+preço int not null,
+quantidade int not null,
+primary key(idmercadoria)
+);

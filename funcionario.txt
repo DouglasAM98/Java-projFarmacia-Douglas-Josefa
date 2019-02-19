@@ -1,0 +1,10 @@
+create table funcionario(
+idfuncionario bigint auto_increment,
+nome varchar (100) not null,
+idade int not null,
+telefone int not null,
+cpf long not null,
+cnpj long not null,
+rg long not null,
+primary key (idfuncionario)
+);
